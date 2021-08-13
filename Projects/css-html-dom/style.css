@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+#container {
+    height:300px;
+    width:800px;
+    background-color: white;
+    display: grid;
+}
+
+#text {
+    text-align: center;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+}
+
+#second {
+    height: 60px;
+    width: 750px;
+    background-color: #eb3d34;
+    margin: -50px auto;
+}
+#familydiv {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+#familylabel {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+#select {
+    height: 25px;
+    width: 100px;
+}
+
+#third {
+    align-self: center;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#colors {
+    display: flex;
+    height: 25px;
+    width: 25px;
+    justify-content: space-between;
+}
+
+#black {
+    background-color: black;
+    height: 30px;
+    width: 30px;
+}
+
+#yellow {
+    background-color: yellow;
+    height: 30px;
+    width: 30px;
+}
+
+#green {
+    background-color: green;
+    height: 30px;
+    width: 30px;
+}
+#blue {
+    background-color: blue;
+    height: 30px;
+    width: 30px;
+}
