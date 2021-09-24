@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player | CodingNepal</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+  <h1>Main Sec</h1>
+  <script>
+    let userAgent = navigator.userAgent;
+    if(userAgent.match(/edge/i)){
+      console.log('edge...')
+    }else if(userAgent.match(/firefox|fxios/i)){
+      console.log('firefox...')
+    }else if(userAgent.match(/opr/i)){
+      console.log('opera..')
+    }else if(userAgent.match(/chrome|chromium|crios/i)){
+      console.log('chrome')
+    }else if(userAgent.match(/safari/i)){
+      console.log('safari')
+    }else{
+      alert('others browser')
+    }
+  </script>
+</body>
+</html>
